@@ -34,11 +34,11 @@ $(document).ready(function () {
     resultCsharp = Csharp1 + Csharp2 + Csharp3 + Csharp4 + Csharp5;
     resultAndroid = Android1 + Android2 + Android3 + Android4 + Android5;
 
-    var pctCss = resultcss/5;
-    var pctCsharp = resultCsharp/5;
-    var pctAndroid = resultAndroid/5;
+    var pctCss = resultcss / 5;
+    var pctCsharp = resultCsharp / 5;
+    var pctAndroid = resultAndroid / 5;
     var maxNumber = Math.max(pctCss, pctCsharp, pctAndroid);
-    if (maxNumber === pctCss){
+    if (maxNumber === pctCss) {
       $("#output").text("You should take CSS");
     }
     if (maxNumber === pctCsharp) {
