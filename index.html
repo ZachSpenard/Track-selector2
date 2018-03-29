@@ -9,85 +9,85 @@
   <script src="js/scripts.js"></script>
 </head>
 <body>
-    <div class="container">
-      <h1 class="flashy">Choose a background color:</h1>
-      <button class="btn btn-success" id="green">Green</button>
-      <button class="btn btn-warning" id="yellow">Yellow</button>
-      <button class="btn btn-danger" id="red">Red</button>
-      <button class="btn btn-primary" id="blue">Blue</button>
-      <button class="btn btn-light" id="light">Light</button>
-      <button class="btn btn-dark" id="dark">Dark</button>
+  <div class="container">
+    <h1 class="flashy">Choose a background color:</h1>
+    <button class="btn btn-success" id="green">Green</button>
+    <button class="btn btn-warning" id="yellow">Yellow</button>
+    <button class="btn btn-danger" id="red">Red</button>
+    <button class="btn btn-primary" id="blue">Blue</button>
+    <button class="btn btn-light" id="light">Light</button>
+    <button class="btn btn-dark" id="dark">Dark</button>
+  </div>
+
+  <h1 class="flashy">Survey</h1>
+  <form id="survey">
+    <h3 class="flashy">How much programming experience do you have?</h3>
+    <div class="radio">
+      <label for="q1a1">
+        <input value="1" name="q1" id="q1a1" type="radio"> Intermediate
+      </label>
+      <label for="q1a2">
+        <input value="1" name="q1" id="q1a2" type="radio"> Beginner
+      </label>
+      <label for="q1a3">
+        <input value="1" name="q1" id="q1a3" type="radio"> Skilled
+      </label>
     </div>
-    
-    <h1 class="flashy">Survey</h1>
-    <form id="survey">
-      <h3 class="flashy">How much programming experience do you have?</h3>
-      <div class="radio">
-        <label for="q1a1">
-          <input value="1" name="q1" id="q1a1" type="radio"> Intermediate
-        </label>
-        <label for="q1a2">
-          <input value="1" name="q1" id="q1a2" type="radio"> Beginner
-        </label>
-        <label for="q1a3">
-          <input value="1" name="q1" id="q1a3" type="radio"> Skilled
-        </label>
-      </div>
-    
-      <h3 class="flashy">Working on which of the following is most appealing to you?</h3>
-      <div class="radio">
-        <label for="q2a1">
-          <input value="1" name="q2" id="q2a1" type="radio"> Web Design
-        </label>
-        <label for="q2a2">
-          <input value="1" name="q2" id="q2a2" type="radio"> Software
-        </label>
-        <label for="q2a3">
-          <input value="1" name="q2" id="q2a3" type="radio"> Applications
-        </label>
-      </div>
-    
-      <h3 class="flashy">Who would you most like working for?</h3>
-      <div class="radio">
-        <label for="q3a1">
-          <input value="1" name="q3" id="q3a1" type="radio"> Enterprise
-        </label>
-        <label for="q3a2">
-          <input value="1" name="q3" id="q3a2" type="radio"> Business
-        </label>
-        <label for="q3a3">
-          <input value="1" name="q3" id="q3a3" type="radio"> Independent
-        </label>
-      </div>
-    
-      <h3 class="flashy">What did you like to do in school?</h3>
-      <div class="radio">
-        <label for="q4a1">
-          <input value="1" name="q4" id="q4a1" type="radio"> Art
-        </label>
-        <label for="q4a2">
-          <input value="1" name="q4" id="q4a2" type="radio"> Phone
-        </label>
-        <label for="q4a3">
-          <input value="1" name="q4" id="q4a3" type="radio"> Math
-        </label>
-      </div>
-    
-      <h3 class="flashy">What type of developement do you see yourself doing?</h3>
-      <div class="radio">
-        <label for="q5a1">
-          <input value="1" name="q5" id="q5a1" type="radio"> Front end
-        </label>
-        <label for="q5a2">
-          <input value="1" name="q5" id="q5a2" type="radio"> Back end
-        </label>
-        <label for="q5a3">
-          <input value="1" name="q5" id="q5a3" type="radio"> Mobile
-        </label>
-      </div>
-      <button type="submit" class="btn">Submit</button>
-    </form>
-    <p id="output">
-    </p>
+
+    <h3 class="flashy">Working on which of the following is most appealing to you?</h3>
+    <div class="radio">
+      <label for="q2a1">
+        <input value="1" name="q2" id="q2a1" type="radio"> Web Design
+      </label>
+      <label for="q2a2">
+        <input value="1" name="q2" id="q2a2" type="radio"> Software
+      </label>
+      <label for="q2a3">
+        <input value="1" name="q2" id="q2a3" type="radio"> Applications
+      </label>
+    </div>
+
+    <h3 class="flashy">Who would you most like working for?</h3>
+    <div class="radio">
+      <label for="q3a1">
+        <input value="1" name="q3" id="q3a1" type="radio"> Enterprise
+      </label>
+      <label for="q3a2">
+        <input value="1" name="q3" id="q3a2" type="radio"> Business
+      </label>
+      <label for="q3a3">
+        <input value="1" name="q3" id="q3a3" type="radio"> Independent
+      </label>
+    </div>
+
+    <h3 class="flashy">What did you like to do in school?</h3>
+    <div class="radio">
+      <label for="q4a1">
+        <input value="1" name="q4" id="q4a1" type="radio"> Art
+      </label>
+      <label for="q4a2">
+        <input value="1" name="q4" id="q4a2" type="radio"> Phone
+      </label>
+      <label for="q4a3">
+        <input value="1" name="q4" id="q4a3" type="radio"> Math
+      </label>
+    </div>
+
+    <h3 class="flashy">What type of developement do you see yourself doing?</h3>
+    <div class="radio">
+      <label for="q5a1">
+        <input value="1" name="q5" id="q5a1" type="radio"> Front end
+      </label>
+      <label for="q5a2">
+        <input value="1" name="q5" id="q5a2" type="radio"> Back end
+      </label>
+      <label for="q5a3">
+        <input value="1" name="q5" id="q5a3" type="radio"> Mobile
+      </label>
+    </div>
+    <button type="submit" class="btn">Submit</button>
+  </form>
+  <p id="output">
+  </p>
 </body>
 </html>
