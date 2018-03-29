@@ -10,9 +10,9 @@ This web site will help you choose the right track to go with based on your answ
 
 ## Setup/Installation Requirements
 
-* Navigate here https://github.com/ZachSpenard/Track-selector2
-* Clone into target directory. https://github.com/ZachSpenard/Track-selector2.git
-* gh-pages file:///Users/zachspenard/Desktop/Track-selector2/index.html
+* Run "git clone https://github.com/ZachSpenard/Track-selector2.git" in your target directory
+* GH-pages https://zachspenard.github.io/Track-selector2/
+
 ## Known Bugs
 
 N/A
